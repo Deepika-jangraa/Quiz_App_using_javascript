@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .quiz-container {
+    margin: 20px;
+  }
+  
+  .question {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .options button {
+    margin: 5px;
+    padding: 10px;
+  }
+  
+  /* Add this style to center the button horizontally and vertically */
+.submit-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This ensures the container takes up the full viewport height */
+  }
+  
+  /* Optional styling for the button (you can customize as needed) */
+  #submit {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  #submit:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Replace "your-button-id" with the actual ID of your "Try Again" button */
+#try-again {
+  display: block;
+  margin: 0 auto; /* This will center the button horizontally */
+  background-color: #FF5722; /* Replace with your desired background color */
+  color: #FFFFFF; /* Replace with your desired text color */
+  padding: 10px 20px; /* Add padding to adjust button size */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Show pointer cursor on hover */
+  /* Add any other styles you want for the button */
+}
+
+
+  #result {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
